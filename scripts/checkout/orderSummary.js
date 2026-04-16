@@ -141,6 +141,8 @@ export function renderOrderSummary(){
       calculateCartQuantity();
       // productId.quantity=quantity;
       // calculateCartQuantity();
+      renderOrderSummary();
+      renderPaymentSummary();
     });
   });
 

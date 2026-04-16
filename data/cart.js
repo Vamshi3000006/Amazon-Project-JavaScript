@@ -60,6 +60,7 @@ export function calculateCartQuantity(){
       elements.forEach(el => {
         el.innerHTML = cartQuantity;
       });
+      return cartQuantity;
 }
 export function updateQuantity(productId, newQuantity){
   cart.forEach((cartItem)=>{
